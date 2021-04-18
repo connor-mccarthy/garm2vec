@@ -15,7 +15,7 @@
 <p>A multi-input neural network model for generating dense clothing embedding vectors.</p>
 </div>
 
-![garm_to_vec_image](garm_to_vec_image_white.png)
+![garm_to_vec_image](./images/garm_to_vec_image_white.png)
 
 Garm2Vec is a neural network model for creating 300 dimensional clothing embeddings from pairs of an image and text description of an article of clothing.
 
