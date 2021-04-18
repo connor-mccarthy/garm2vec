@@ -33,7 +33,7 @@ jobs:
         mypy .
     - name: Test with pytest
       run: |
-        pytest --cov=./
+        pytest
     - name: Upload codecov
       uses: codecov/codecov-action@v1
       with:
