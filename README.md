@@ -29,8 +29,8 @@ The embeddings capture a compressed representation of the visual image and the s
 The model builds on Microsoft's [ResNet50](https://arxiv.org/abs/1512.03385) and Google's [BERT](https://arxiv.org/abs/1810.04805v2) via transfer learning. It is trained on a multi-output classification task that predicts the aspects of the clothing bulleted above.
 
 Model architecture:
-* [embedding architecture (fully expanded)](./embedding_architecture.png)
-* [classification architecture (used for training)](./full_classification_architecture.png)
+* [embedding architecture (fully expanded)](./images/embedding_architecture.png)
+* [classification architecture (used for training)](./images/full_classification_architecture.png)
 ## Installation
 ```sh
 pip install git+https://github.com/connor-mccarthy/garm2vec.git
@@ -66,4 +66,4 @@ fig2 = g2v.plot_many([[image_path, description], [image_path, description]])
 
 The `.plot_one()` and `.plot_many()` functions plot one or more vectors for visual comparison of similarities:
 
-![comparison_plot](comparison_plot.png)
+![comparison_plot](./images/comparison_plot.png)
