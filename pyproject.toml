@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "garm2vec"
+packages = [
+    { include = "garm2vec" }
+]
+version = "0.1.0"
+description = ""
+authors = ["Connor McCarthy <mccarthy.connor.james@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/connor-mccarthy/garm2vec"
+keywords = []
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4.0"
+tensorflow = "^2.4.1"
+Pillow = "^8.2.0"
+tensorflow-datasets = "^4.2.0"
+tensorflow-text = "^2.4.3"
+cleo = "^0.8.1"
+colabcode = "^0.2.0"
+google = "^3.0.0"
+livelossplot = "^0.5.4"
+plot-keras-history = "^1.1.29"
+plotly = "^4.14.3"
+bashplotlib = "^0.6.5"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+pre-commit = "^2.10.1"
+mypy = "^0.800"
+pytest = "^6.2.2"
+bandit = "^1.7.0"
+pytest-sugar = "^0.9.4"
+sklearn = "^0.0"
+plot-keras-history = "^1.1.28"
+matplotlib = "^3.4.1"
+pydot = "^1.4.2"
+pandas = "^1.2.3"
+black = "^20.8b1"
+
+[tool.poetry.scripts]
+garm2vec = "garm2vec.console.application:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.pytest]
+minversion = "6.2"
