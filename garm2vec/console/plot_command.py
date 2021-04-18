@@ -34,6 +34,6 @@ class PlotCommand(Command):
             ys=None,
             title="Garm2Vec",
             pch="o",
-            size=20,
+            size=40,
             colour="default",
         )

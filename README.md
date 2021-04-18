@@ -42,8 +42,6 @@ pip install git+https://github.com/connor-mccarthy/garm2vec.git
 garm2vec vector '/path/to/your/file.jpg' 'Turtle Check Men Navy Blue Shirt'
 
 >>> [ 3.32198739e-01 -2.75256515e+00 -1.36471272e+00 -3.20780230e+00, ...]
-
-garm2vec plot '/path/to/your/file.jpg' 'Turtle Check Men Navy Blue Shirt'
 ```
 
 ### Python
