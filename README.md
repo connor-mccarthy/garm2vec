@@ -1,6 +1,5 @@
 <div align="center">
   <h1>garm2vec</h1>
-  <br><br/>
 <p align="center">
 
 <a href="https://github.com/connor-mccarthy/garm2vec/workflows/build/badge.svg">
