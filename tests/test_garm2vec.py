@@ -1,10 +1,14 @@
+import os
+
 import numpy as np
 from garm2vec import Garm2Vec
 from garm2vec.constants import EMBEDDING_DIMS
 
+from tests.constants import TEST_FILES_DIR
+
 
 def test_garm2vec_runs():
-    image_path = "/Users/connor/workspace/garm2vec/data/images/1163.jpg"
+    image_path = os.path.join(TEST_FILES_DIR, "sun_dress.jpg")
     description = "Turtle Check Men Navy Blue Shirt"
     inputs = [image_path, description]
     g2v = Garm2Vec()

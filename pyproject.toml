@@ -15,7 +15,7 @@ keywords = []
 python = ">=3.7.1,<4.0"
 tensorflow = "^2.4.1"
 Pillow = "^8.2.0"
-tensorflow-text = "^2.4.3"
+tensorflow-text = "2.4.3"
 cleo = "^0.8.1"
 google = "^3.0.0"
 plotly = "^4.14.3"
