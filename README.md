@@ -12,7 +12,7 @@
 <a href="https://img.shields.io/badge/code%20style-black-000000.svg">
     <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black" >
 </a>
-<p>A multi-input clothing embedding model.</p>
+<p>A multi-input neural network model for generating dense clothing embedding vectors.</p>
 </div>
 
 ![garm_to_vec_image](garm_to_vec_image_white.png)
